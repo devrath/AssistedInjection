@@ -38,7 +38,7 @@ class MainActivity : AppCompatActivity() {
                 view.hideSoftInput()
                 val textToInject = binding.txtToInjectId.text.toString()
                 if(validateInput(textToInject)){
-                    getDownloadAssetsAnalytics(DownloadTaskParams(textToInject))
+                    prepareTheFactory(ModelDataClass(textToInject))
                     displayMessage(view,getString(R.string.str_value_injected))
                 }else{
                     displayMessage(view,getString(R.string.str_enter_value_to_inject))
@@ -48,7 +48,7 @@ class MainActivity : AppCompatActivity() {
             display.setOnClickListener { view ->
                 view.hideSoftInput()
                 val textToInject = classToInject.getInjectedValue()
-                getDownloadAssetsAnalytics(DownloadTaskParams(textToInject))
+                prepareTheFactory(ModelDataClass(textToInject))
                 displayMessage(view,textToInject)
             }
         }
@@ -57,8 +57,8 @@ class MainActivity : AppCompatActivity() {
     /**
      * Inject via a factory class
      */
-    private fun getDownloadAssetsAnalytics(downloadTaskParams: DownloadTaskParams){
-        classToInject = classToInjectFactory.create(downloadTaskParams)
+    private fun prepareTheFactory(modelDataClass: ModelDataClass){
+        classToInject = classToInjectFactory.create(modelDataClass)
     }
 
     /**
@@ -79,7 +79,7 @@ class MainActivity : AppCompatActivity() {
     /**
      * Closing the keyboard
      */
-    fun View.hideSoftInput() {
+    private fun View.hideSoftInput() {
         val inputMethodManager = context.getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager
         inputMethodManager.hideSoftInputFromWindow(windowToken, 0)
     }

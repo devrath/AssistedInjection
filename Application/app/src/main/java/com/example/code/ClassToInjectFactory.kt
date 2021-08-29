@@ -6,6 +6,6 @@ import dagger.assisted.AssistedFactory
 @AssistedFactory
 interface ClassToInjectFactory {
     fun create(
-        @Assisted("downloadTaskParams") downloadTaskParams: DownloadTaskParams,
+        @Assisted("downloadTaskParams") modelDataClass: ModelDataClass,
     ): ClassToInject
 }
