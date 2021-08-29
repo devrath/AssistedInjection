@@ -6,5 +6,7 @@ import dagger.assisted.AssistedInject
 class ClassToInject @AssistedInject constructor(
     @Assisted("downloadTaskParams") val downloadTaskParams: DownloadTaskParams,
 ){
-    // Where we have used the dependency
+    fun getInjectedValue(): String {
+        return downloadTaskParams.data
+    }
 }

@@ -9,5 +9,10 @@
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
-    <string name="test_injection">Test Injection</string>
+    <string name="test_injection">Inject value</string>
+    <string name="display_injected_text">Display Injected Text</string>
+    <string name="enter_text_to_inject">Enter Text to inject</string>
+    <string name="str_enter_value_to_inject">Enter value to inject</string>
+    <string name="str_value_injected">Value injected</string>
+
 </resources>
