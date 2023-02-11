@@ -1,6 +1,6 @@
 ![cover](https://github.com/devrath/Hilt-Inject-During-Runtime/blob/main/assets/dagger_hilt.jpeg)
 
-<h1 align="center">𝙷𝚒𝚕𝚝-𝙸𝚗𝚓𝚎𝚌𝚝-𝙳𝚞𝚛𝚒𝚗𝚐-𝚁𝚞𝚗𝚝𝚒𝚖𝚎</h1>
+<h1 align="center">𝙰𝚜𝚜𝚒𝚜𝚝𝚎𝚍𝙸𝚗𝚓𝚎𝚌𝚝𝚒𝚘𝚗</h1>
 <p align="center">
 <a><img src="https://img.shields.io/badge/Built%20Using-Kotlin-silver?style=for-the-badge&logo=kotlin"></a>
 <a><img src="https://img.shields.io/badge/Built%20By-Android%20Studio-red?style=for-the-badge&logo=android%20studio"></a>  
@@ -32,13 +32,13 @@ If you feel like support me a coffee for my efforts, I would greatly appreciate 
 Read [contribution guidelines](CONTRIBUTING.md) for more information regarding contribution.
 
 ## **`𝙵𝚎𝚎𝚍𝚋𝚊𝚌𝚔`** ✍️ 
-Feature requests are always welcome, [File an issue here](https://github.com/devrath/NoteApp/issues/new).
+Feature requests are always welcome, [File an issue here](https://github.com/devrath/AssistedInjection/issues/new).
 
 ## **`𝙵𝚒𝚗𝚍 𝚝𝚑𝚒𝚜 𝚙𝚛𝚘𝚓𝚎𝚌𝚝 𝚞𝚜𝚎𝚏𝚞𝚕`** ? ❤️
 Support it by clicking the ⭐ button on the upper right of this page. ✌️
 
 ## **`𝙻𝚒𝚌𝚎𝚗𝚜𝚎`** ![Licence](https://img.shields.io/github/license/google/docsy) :credit_card:
-This project is licensed under the Apache License 2.0 - see the [LICENSE](https://github.com/devrath/NoteApp/blob/main/LICENSE) file for details
+This project is licensed under the Apache License 2.0 - see the [LICENSE](https://github.com/devrath/AssistedInjection/blob/main/LICENSE) file for details
 
 
 <p align="center">
