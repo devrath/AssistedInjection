@@ -11,18 +11,19 @@
 </br>
 
 
-### Assisted Injection
-Dagger. Assisted injection is a dependency injection (DI) pattern that is used to construct an object where some parameters may be provided by the DI framework and others must be passed in at creation time (a.k.a “assisted”) by the user.
+### **`𝙰𝚜𝚜𝚒𝚜𝚝𝚎𝚍 𝙸𝚗𝚓𝚎𝚌𝚝𝚒𝚘𝚗`**
+𝚃𝚑𝚎 𝚊𝚜𝚜𝚒𝚜𝚝𝚎𝚍 𝚒𝚗𝚓𝚎𝚌𝚝𝚒𝚘𝚗 𝚒𝚜 𝚊 𝚍𝚎𝚙𝚎𝚗𝚍𝚎𝚗𝚌𝚢 𝚒𝚗𝚓𝚎𝚌𝚝𝚒𝚘𝚗 (𝙳𝙸) 𝚙𝚊𝚝𝚝𝚎𝚛𝚗 𝚝𝚑𝚊𝚝 𝚒𝚜 𝚞𝚜𝚎𝚍 𝚝𝚘 𝚌𝚘𝚗𝚜𝚝𝚛𝚞𝚌𝚝 𝚊𝚗 𝚘𝚋𝚓𝚎𝚌𝚝 𝚠𝚑𝚎𝚛𝚎 𝚜𝚘𝚖𝚎 𝚙𝚊𝚛𝚊𝚖𝚎𝚝𝚎𝚛𝚜 𝚖𝚊𝚢 𝚋𝚎 𝚙𝚛𝚘𝚟𝚒𝚍𝚎𝚍 𝚋𝚢 𝚝𝚑𝚎 𝙳𝙸 𝚏𝚛𝚊𝚖𝚎𝚠𝚘𝚛𝚔 𝚊𝚗𝚍 𝚘𝚝𝚑𝚎𝚛𝚜 𝚖𝚞𝚜𝚝 𝚋𝚎 𝚙𝚊𝚜𝚜𝚎𝚍 𝚒𝚗 𝚊𝚝 𝚌𝚛𝚎𝚊𝚝𝚒𝚘𝚗 𝚝𝚒𝚖𝚎 (𝚊.𝚔.𝚊 “𝚊𝚜𝚜𝚒𝚜𝚝𝚎𝚍”) 𝚋𝚢 𝚝𝚑𝚎 𝚞𝚜𝚎𝚛.
 
 ### [Click to access android documentation](https://dagger.dev/dev-guide/assisted-injection.html)
 
-### Class diagram representation
+### **`𝙲𝚕𝚊𝚜𝚜 𝚍𝚒𝚊𝚐𝚛𝚊𝚖 𝚛𝚎𝚙𝚛𝚎𝚜𝚎𝚗𝚝𝚊𝚝𝚒𝚘𝚗`**
 ![class diagram](https://github.com/devrath/Hilt-Inject-During-Runtime/blob/main/assets/block_diagram.png)
 
 ## **`𝙳𝚎𝚖𝚘`** 🗼
 <div align="center">
-<video align="center" height="500" width="600" src="https://github.com/devrath/Hilt-Inject-During-Runtime/blob/main/assets/demo.gif"  alt="dev_logo"/>
+<img align="center" height="800" width="400" src="https://github.com/devrath/Hilt-Inject-During-Runtime/blob/main/assets/demo.gif"  alt="dev_logo"/>
 </div>
+
 
 ## **`𝚂𝚞𝚙𝚙𝚘𝚛𝚝`** ☕
 If you feel like support me a coffee for my efforts, I would greatly appreciate it.</br>
