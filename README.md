@@ -24,7 +24,7 @@
 
 ## **`𝙳𝚎𝚖𝚘`** 🗼
 <div align="center">
-<img align="center" height="800" width="400" src="https://github.com/devrath/Hilt-Inject-During-Runtime/blob/main/assets/demo.gif"  alt="dev_logo"/>
+<img align="center" height="800" width="380" src="https://github.com/devrath/Hilt-Inject-During-Runtime/blob/main/assets/demo.gif"  alt="dev_logo"/>
 </div>
 
 
