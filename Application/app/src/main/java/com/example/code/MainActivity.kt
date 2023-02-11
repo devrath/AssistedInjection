@@ -47,9 +47,13 @@ class MainActivity : AppCompatActivity() {
             // DISPLAY - ACTION
             display.setOnClickListener { view ->
                 view.hideSoftInput()
-                val textToInject = classToInject.getInjectedValue()
-                prepareTheFactory(ModelDataClass(textToInject))
-                displayMessage(view,textToInject)
+                if (::classToInject.isInitialized) {
+                    val textToInject = classToInject.getInjectedValue()
+                    prepareTheFactory(ModelDataClass(textToInject))
+                    displayMessage(view,textToInject)
+                }else{
+                    displayMessage(view,getString(R.string.str_enter_value_to_inject))
+                }
             }
         }
     }
